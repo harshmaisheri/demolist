@@ -17,3 +17,9 @@
   background: royalblue;
   color: #ffffff;
 }
+.listrow table .odd {
+  background: rgb(203, 235, 247);
+}
+.listrow table .eve {
+  background: rgb(211, 226, 244);
+}

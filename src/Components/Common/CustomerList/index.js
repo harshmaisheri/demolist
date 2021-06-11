@@ -31,8 +31,8 @@ function CustomerList() {
             </tr>
           </thead>
           <tbody>
-            {data.map((item) => (
-              <tr>
+            {data.map((item, idx) => (
+              <tr className={`${idx % 2 === 0 ? "odd" : "eve"}`}>
                 <td>{item.id}</td>
                 <td>{item.name}</td>
                 <td>{item.email}</td>
