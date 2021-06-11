@@ -1,0 +1,19 @@
+.customerlist {
+  padding: 4rem;
+}
+.customerlist h3 {
+  text-align: left;
+}
+.listrow {
+  display: flex;
+  width: 100%;
+}
+
+.listrow table {
+  width: 100%;
+}
+
+.listrow table thead {
+  background: royalblue;
+  color: #ffffff;
+}

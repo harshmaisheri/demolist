@@ -1,0 +1,61 @@
+.main {
+  display: flex;
+  justify-items: center;
+  height: calc(100vh - 100px);
+}
+.leftbar.inactive,
+.rightbar.inactive {
+  display: none !important;
+}
+.leftbar,
+.rightbar {
+  width: 300px;
+  color: #ffffff;
+}
+.leftbar {
+  background: #ff671d;
+  height: calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+.leftbar div {
+  width: 100%;
+}
+.rightbar {
+  background: grey;
+  height: calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+.rightbar div {
+  width: 100%;
+}
+.centerbar {
+  padding-top: 4rem;
+  width: 100%;
+}
+
+.buttonrow {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 4rem;
+}
+
+button {
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.btn-left {
+  background: #ff671d;
+}
+
+.btn-right {
+  background: gray;
+}

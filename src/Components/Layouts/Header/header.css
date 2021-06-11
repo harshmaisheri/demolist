@@ -1,0 +1,15 @@
+header {
+  height: 50px;
+  width: 100%;
+  background-color: royalblue;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+
+header h2 {
+  text-align: center;
+  margin: 0 auto;
+  color: #ffffff;
+}
